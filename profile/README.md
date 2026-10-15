@@ -39,3 +39,11 @@ Firmware ESP32 serta dokumentasi produk dan arsitektur dikelola bersama source A
 | Device | ESP32 Arduino, PlatformIO, ArduinoJson |
 | Local AI | Ollama privat untuk rangkuman nonklinis opsional |
 
+## Prinsip Produk
+
+- **Pengasuh tetap memegang kendali** — peserta selalu mengikuti sesi dengan pendamping.
+- **Backend adalah sumber kebenaran** — browser tidak memulai timer, menilai input, atau memfinalisasi hasil.
+- **Privasi minimum** — firmware tidak menerima nama, kode peserta, cookie, atau credential pengguna.
+- **Fail-safe** — disconnect, fault, timeout, dan command stale tidak boleh membuat actuator tetap aktif atau menghasilkan skor palsu.
+- **Bukan klaim klinis** — skor dan rangkuman hanya mendeskripsikan sesi permainan.
+
