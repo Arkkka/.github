@@ -69,3 +69,9 @@ npm run dev
 
 Konfigurasi provider, environment variable, firmware, dan runbook ada di README root serta direktori `docs`.
 
+## Current Scope
+
+MVP mencakup login institusi, onboarding, dashboard, kesiapan perangkat, tiga mode latihan, session lifecycle server-authoritative, penyimpanan hasil, riwayat peserta, audit, device gateway, dan rangkuman AI lokal yang opsional.
+
+Fitur yang belum terhubung ke provider atau deployment production tidak dianggap selesai hanya karena sudah tertulis di PRD.
+
