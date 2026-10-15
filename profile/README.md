@@ -18,3 +18,12 @@ Arka menjaga satu alur yang jelas:
 4. Peserta mengikuti instruksi melalui layar dan perangkat fisik.
 5. Backend memfinalisasi hasil dan menyediakan riwayat privat peserta.
 
+## Repositories
+
+| Repository | Tanggung jawab |
+| --- | --- |
+| `Arka-FE` | React web app untuk landing page, autentikasi, onboarding, dashboard, dan alur sesi |
+| `Arka-BE` | Express API untuk autentikasi, otorisasi, database, game runtime, device gateway, WebSocket, dan worker |
+
+Firmware ESP32 serta dokumentasi produk dan arsitektur dikelola bersama source Arka. README dan konfigurasi aplikasi berada di masing-masing direktori implementasi.
+
