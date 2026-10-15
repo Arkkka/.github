@@ -27,3 +27,15 @@ Arka menjaga satu alur yang jelas:
 
 Firmware ESP32 serta dokumentasi produk dan arsitektur dikelola bersama source Arka. README dan konfigurasi aplikasi berada di masing-masing direktori implementasi.
 
+## Technology Stack
+
+| Layer | Teknologi |
+| --- | --- |
+| Web | React 19, Vite 8, TypeScript, Tailwind CSS 4 |
+| API | Node.js, Express 5, TypeScript, Zod |
+| Authentication | Better Auth dengan session cookie HTTP-only |
+| Data | PostgreSQL, Prisma 7, Redis/Valkey |
+| Realtime | WebSocket untuk browser dan device gateway |
+| Device | ESP32 Arduino, PlatformIO, ArduinoJson |
+| Local AI | Ollama privat untuk rangkuman nonklinis opsional |
+
