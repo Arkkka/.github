@@ -47,3 +47,25 @@ Firmware ESP32 serta dokumentasi produk dan arsitektur dikelola bersama source A
 - **Fail-safe** — disconnect, fault, timeout, dan command stale tidak boleh membuat actuator tetap aktif atau menghasilkan skor palsu.
 - **Bukan klaim klinis** — skor dan rangkuman hanya mendeskripsikan sesi permainan.
 
+## Local Development
+
+Backend:
+
+```bash
+cd Arka-BE
+npm ci
+npm run prisma:generate
+npm run prisma:migrate
+npm run dev
+```
+
+Frontend:
+
+```bash
+cd Arka-FE
+npm ci
+npm run dev
+```
+
+Konfigurasi provider, environment variable, firmware, dan runbook ada di README root serta direktori `docs`.
+
